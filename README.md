@@ -1,2 +1,2 @@
-# module04-EC-
+# module04-EC
 Module 4 Extra credit
