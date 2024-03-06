@@ -13,5 +13,10 @@ do {
         alert('One or both entries are invalid.');
     }
     again = prompt('Run application again? (y or n)', 'y');
+    //  iterate while both conditions are true, if y or n is entered, one of the conditions is false and exit the loop
+    // if user enters anything other than y or n, the loop will continue 
+    while (again !== "y" && again !== "n") {
+        again = prompt('Run application again? (y or n)', 'y')
+    }
 } while (again === 'y');
 console.log('Application has exited.');
